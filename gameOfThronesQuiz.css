@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Game of Thrones";
+    src: url("Game\ of\ Thrones.ttf");
+    }
+
+header {
+    font-size: 5em;
+    font-family: 'Game of Thrones', 'Aclonica', Arial, Helvetica, Verdana, sans-serif;
+    color: silver;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+html { 
+    background: url("images/iron-throne.jpg") no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+  body {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: white;
+}
+
+.button {
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 4px;
+}
+
+#startButton {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+a {
+    color: white;
+}
+
+#quizContainer {
+    margin-top: -90px;
+    text-align: left;
+    padding-left: 450px;
+    font-size: 30px;
+    color: rgb(143, 8, 143);
+    font-weight: bold;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000,  -1px 1px 0 #000,  1px 1px 0 #000;
+}

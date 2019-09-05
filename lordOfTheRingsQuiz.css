@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Lord of the Rings";
+    src: url("RINGM___.TTF");
+    }
+
+header {
+    font-size: 6em;
+    font-family: 'Lord of the Rings', 'Aclonica', Arial, Helvetica, Verdana, sans-serif;
+    color: #C4A421;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+html { 
+    background: url("images/minas-tirith.jpg") no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+body {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: white;
+}
+
+.button {
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 4px;
+}
+
+#startButton {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+a {
+    color: white;
+}
+
+#quizContainer {
+    margin-top: -90px;
+    text-align: left;
+    padding-left: 450px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000,  -1px 1px 0 #000,  1px 1px 0 #000;
+}

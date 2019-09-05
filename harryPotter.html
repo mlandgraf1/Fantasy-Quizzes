@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Harry Potter Quiz</title>
+        <meta charset="utf-8"/>
+        <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+        <link href="harryPotterStyle.css" rel="stylesheet"/>
+        <script src="harryPotterQuiz.js" type="application/javascript"></script>
+    </head>
+    <body>
+        <div id="main">
+            <header>Harry Potter Quiz</header>
+            <div id="navigation">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="harryPotter.html">Harry Potter Quiz</a></li>
+                    <li><a href="gameOfThronesQuiz.html">Game of Thrones Quiz</a></li>
+                    <li><a href="lordOfTheRingsQuiz.html">Lord of the Rings Quiz</a></li>
+                </ul>
+            </div>
+            <div id="startButton">
+                <button class="button" onclick="this.style.visibility='hidden';nextQuestion()">Start Quiz</button>
+            </div>
+            <div id="quizContainer">
+                <div id="currentPlaceInQuiz">
+                </div>
+                <div id="quiz">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
